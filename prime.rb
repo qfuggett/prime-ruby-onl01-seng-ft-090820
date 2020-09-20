@@ -7,5 +7,6 @@ while n < num
     return false
   else true
   end
+end
 
 end
