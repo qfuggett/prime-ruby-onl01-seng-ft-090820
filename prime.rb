@@ -1,12 +1,18 @@
 require 'pry'
 
 def prime?(number)
-n = 1
-while n < number
-  if number % n == 0
-    return false
-  else true
+if number == number / -1
+  puts false
+
+else
+  n = 2
+  while n <= number
+    puts false if number % n == 0
+    n += 1
   end
+
+  puts true
+
 end
 
 end
