@@ -6,7 +6,7 @@ if number == number / -1
 
 else
   n = 2
-  while n <= number
+  while n <= number / 2
     puts false if number % n == 0
     n += 1
   end
