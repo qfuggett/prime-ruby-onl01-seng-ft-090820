@@ -2,16 +2,16 @@ require 'pry'
 
 def prime?(number)
 if number == number / -1
-  puts false
+  return false
 
 else
   n = 2
   while n <= number / 2
-    puts false if number % n == 0
+    return false if number % n == 0
     n += 1
   end
 
-  puts true
+  return true
 
 end
 
