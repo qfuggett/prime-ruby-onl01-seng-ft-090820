@@ -1,4 +1,7 @@
+require 'pry'
+
 def prime?(number)
+binding.pry
 if number == number / -1
   return false
 
